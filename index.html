@@ -1,65 +1,52 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#10142e">
-  <meta name="description" content="¡La cuenta atrás de nuestra aventura en Londres!">
-  <title>London Calling ✈ — Cuenta atrás</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#10142e"><meta name="description" content="Nuestra aventura londinense del 2 al 6 de diciembre de 2026: cuenta atrás, agenda y mapas.">
+<title>London Calling · Nuestro viaje</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"><script defer src="script.js"></script>
 </head>
 <body>
-  <div class="sparkles" aria-hidden="true"></div>
-  <main class="page">
-    <nav class="topbar" aria-label="Cabecera">
-      <span class="brand"><span class="brand-icon">✦</span> THE LONDON TRIP <span class="brand-icon">✦</span></span>
-      <span class="year-chip">DECEMBER 2026 <span>✈</span></span>
-    </nav>
-    <section class="countdown-panel" aria-labelledby="countdown-title">
-      <div class="countdown-top"><span class="line-deco">✳ &nbsp; THE FINAL COUNTDOWN &nbsp; ✳</span><span class="time-zone">HORA DE SEVILLA · EUROPE/MADRID</span></div>
-      <h2 id="countdown-title">¡Cada segundo estamos más cerca! <span>💫</span></h2>
-      <div class="timer" role="timer" aria-live="off" aria-label="Cuenta atrás hasta el viaje">
-        <div class="time-unit"><strong id="days">--</strong><span>DÍAS</span></div><span class="colon">:</span>
-        <div class="time-unit"><strong id="hours">--</strong><span>HORAS</span></div><span class="colon">:</span>
-        <div class="time-unit"><strong id="minutes">--</strong><span>MINUTOS</span></div><span class="colon">:</span>
-        <div class="time-unit seconds"><strong id="seconds">--</strong><span>SEGUNDOS</span></div>
-      </div>
-      <p id="status" class="countdown-footer">El 2 de diciembre empieza nuestra aventura. 🚀</p>
-    </section>
-    <section class="hero" aria-labelledby="headline">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="pulse"></span> OUR NEXT BIG ADVENTURE</p>
-        <p class="script">Pack your bags, we're going to...</p>
-        <h1 id="headline">LON<span>DON</span><span class="exclamation">!</span></h1>
-        <p class="subhead">Tres viajeros. Una ciudad mágica.<br>Y un montón de recuerdos por crear. <span aria-hidden="true">♥</span></p>
-        <div class="flight-ticket">
-          <div class="ticket-route"><div><small>DESDE</small><strong>SVQ</strong><span>Sevilla</span></div><div class="ticket-middle"><span>✈</span><div class="flight-dashes"></div></div><div><small>HASTA</small><strong>STN</strong><span>Londres</span></div></div>
-          <div class="ticket-bottom"><span>✈ &nbsp; 2 DIC 2026</span><span>3 ADVENTURERS ✨</span></div>
-        </div>
-      </div>
-      <div class="collage" aria-label="Collage de Londres y la magia del cine">
-        <div class="photo photo-main"><img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1100&q=85" alt="Londres y el Big Ben" fetchpriority="high"><span class="photo-tag">LONDON, BABY! 🇬🇧</span></div>
-        <div class="photo photo-bus"><img src="https://images.unsplash.com/photo-1516568578350-67c0e1e350f6?auto=format&fit=crop&w=750&q=85" alt="Autobús rojo londinense junto al Big Ben" loading="lazy"></div>
-        <div class="photo photo-magic"><img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=750&q=85" alt="Bosque encantado que evoca una aventura mágica" loading="lazy"><span class="magic-label">A LITTLE BIT OF MAGIC ✨</span></div>
-        <div class="paper-sticker sticker-star" aria-hidden="true">✳</div>
-        <div class="paper-sticker sticker-heart" aria-hidden="true">♥</div>
-        <div class="paper-sticker sticker-circle" aria-hidden="true">LET'S<br>GO!</div>
-      </div>
-    </section>
-    <section class="postcards" aria-label="Lo que nos espera">
-      <p class="postcards-title">A LITTLE SNEAK PEEK OF WHAT'S WAITING FOR US ↓</p>
-      <div class="postcards-grid">
-        <article class="postcard"><span class="postcard-emoji">🏰</span><span>Castillos, historia<br>y joyas reales</span></article>
-        <article class="postcard"><span class="postcard-emoji">🪄</span><span>Magia de cine<br>y mundos increíbles</span></article>
-        <article class="postcard"><span class="postcard-emoji">🚌</span><span>Autobuses rojos<br>y calles icónicas</span></article>
-        <article class="postcard"><span class="postcard-emoji">🎄</span><span>Luces de Navidad<br>por todas partes</span></article>
-      </div>
-    </section>
-    <footer>MADE WITH <span>♥</span> FOR OUR LONDON ADVENTURE <span class="footer-spark">✧</span> 02—06 DEC 2026</footer>
-  </main>
-</body>
-</html>
+<div class="sparkles" aria-hidden="true"></div>
+<div class="page">
+<header class="topbar"><a class="brand" href="#inicio">✦ THE LONDON TRIP ✦</a><span class="year-chip">02—06 DIC 2026 🇬🇧</span></header>
+<section id="inicio" class="countdown-panel" aria-labelledby="countdown-title"><div class="countdown-top">✳ THE FINAL COUNTDOWN ✳ <span>HORA DE SEVILLA · CET</span></div><h1 id="countdown-title">¡Londres nos espera! <span>✨</span></h1><div class="timer" role="timer" aria-label="Cuenta atrás hasta el despegue"><div class="time-unit"><strong id="days">--</strong><span>DÍAS</span></div><b>:</b><div class="time-unit"><strong id="hours">--</strong><span>HORAS</span></div><b>:</b><div class="time-unit"><strong id="minutes">--</strong><span>MINUTOS</span></div><b>:</b><div class="time-unit"><strong id="seconds">--</strong><span>SEGUNDOS</span></div></div><p id="status" class="countdown-footer">Despegamos el miércoles 2 de diciembre a las 07:10 desde Sevilla ✈️</p></section>
+<nav class="tabs" aria-label="Vistas del viaje"><button class="tab active" data-view="resumen" aria-selected="true">✨ Inicio</button><button class="tab" data-view="calendario" aria-selected="false">📅 Calendario</button><button class="tab" data-view="reservas" aria-selected="false">🎟️ Reservas</button><button class="tab" data-view="mapas" aria-selected="false">🗺️ Mapas</button></nav>
+<main id="content">
+<section class="view active" id="view-resumen" aria-label="Resumen del viaje">
+  <div class="hero"><div class="hero-copy"><p class="eyebrow">OUR NEXT BIG ADVENTURE</p><p class="script">Pack your bags, we're going to...</p><h2 class="london-title">LON<span>DON</span><em>!</em></h2><p class="subhead">Tres viajeros. Cinco días. Una ciudad llena de magia, luces de Navidad y aventuras.</p><div class="stats"><div><strong>5</strong><span>días</span></div><div><strong>4</strong><span>noches</span></div><div><strong>3</strong><span>viajeros</span></div></div></div><div class="collage"><img class="photo-main" src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1100&q=85" alt="Big Ben y Londres" fetchpriority="high"><img class="photo-bus" src="https://images.unsplash.com/photo-1516568578350-67c0e1e350f6?auto=format&fit=crop&w=650&q=85" alt="Autobús rojo en Londres" loading="lazy"><img class="photo-magic" src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=650&q=85" alt="Bosque de aspecto mágico" loading="lazy"><span class="sticker">LET'S GO! ✨</span></div></div>
+  <div class="section-head"><div><p class="eyebrow">YOUR ADVENTURE AT A GLANCE</p><h2>Lo próximo en la agenda</h2></div><button class="text-button" data-go="calendario">Ver calendario →</button></div>
+  <div class="highlights"><article class="highlight"><span class="eyebrow">MIÉ · 2 DIC</span><strong>✈️ Llegada a Londres</strong><p>09:00 · Stansted, hora local</p></article><article class="highlight"><span class="eyebrow">JUE · 3 DIC</span><strong>🪄 Harry Potter Studios</strong><p>11:45–18:45 · Excursión con traslado</p></article><article class="highlight"><span class="eyebrow">DOM · 6 DIC</span><strong>🧳 Regreso a Sevilla</strong><p>16:55 · Salida desde Gatwick</p></article></div>
+  <div class="note">💡 <strong>Información del viaje:</strong> las horas de la agenda son locales de Londres (GMT), salvo la salida de Sevilla y la llegada de vuelta, que están en hora española (CET).</div>
+</section>
+<section class="view" id="view-calendario" aria-label="Calendario del viaje" hidden>
+  <div class="section-head"><div><p class="eyebrow">2 — 6 DECEMBER 2026</p><h2>Calendario de la aventura 📅</h2></div></div>
+  <p class="muted">Toca un día para ver sus reservas y abrir los lugares en Google Maps.</p>
+  <div class="day-strip" role="group" aria-label="Selecciona el día"><button class="day-button selected" data-day="2" aria-pressed="true"><span>MIÉ</span><strong>2</strong><small>✈️</small></button><button class="day-button" data-day="3" aria-pressed="false"><span>JUE</span><strong>3</strong><small>🪄</small></button><button class="day-button" data-day="4" aria-pressed="false"><span>VIE</span><strong>4</strong><small>✨</small></button><button class="day-button" data-day="5" aria-pressed="false"><span>SÁB</span><strong>5</strong><small>🎄</small></button><button class="day-button" data-day="6" aria-pressed="false"><span>DOM</span><strong>6</strong><small>✈️</small></button></div>
+  <div id="day-detail" class="day-detail" aria-live="polite"></div>
+</section>
+<section class="view" id="view-reservas" aria-label="Reservas confirmadas" hidden>
+  <div class="section-head"><div><p class="eyebrow">ALL THE IMPORTANT DETAILS</p><h2>Reservas confirmadas 🎟️</h2></div></div>
+  <div class="reservation-grid">
+    <article class="info-card"><div class="card-icon">✈️</div><span class="tag">CONFIRMADO · MIÉ 2</span><h3>Vuelo de ida · FR 5375</h3><div class="route"><strong>SVQ</strong><span>→</span><strong>STN</strong></div><p>Sevilla 07:10 CET → Stansted 09:00 GMT</p><p>Directo · Ryanair · 2 h 50 min</p><a class="action" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=London+Stansted+Airport">📍 Aeropuerto Stansted ↗</a></article>
+    <article class="info-card"><div class="card-icon">🏨</div><span class="tag">CONFIRMADO · 2–6 DIC</span><h3>Epsilon Hotel</h3><p>27A Romford Road, Stratford, London E15 4LJ</p><p>Check-in: mié 2, 14:00 GMT<br>Check-out: dom 6, 11:00 GMT</p><a class="action" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Epsilon+Hotel+27A+Romford+Road+London">📍 Ver hotel en Maps ↗</a><a class="action secondary" href="tel:+442085550198">📞 Llamar al hotel</a></article>
+    <article class="info-card"><div class="card-icon">🪄</div><span class="tag">CONFIRMADO · JUE 3</span><h3>Warner Bros. Studio Tour</h3><p>Golden Tours · Excursión con transporte de ida y vuelta</p><p>11:45–18:45 GMT (horario de la excursión)</p><p>Punto de salida: King's Cross / St Pancras, parada T, Pancras Road.</p><a class="action" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Kings+Cross+St+Pancras+Bus+Stop+T+Pancras+Road+London">📍 Ver punto de encuentro ↗</a><a class="action secondary" target="_blank" rel="noopener noreferrer" href="https://www.goldentours.com/warner-bros-harry-potter-studio-tour-london/warner-bros-studio-tour-london-the-making-of-harry-potter-with-return-transportation">🎟️ Golden Tours ↗</a></article>
+    <article class="info-card"><div class="card-icon">🛫</div><span class="tag">CONFIRMADO · DOM 6</span><h3>Vuelo de vuelta · EZY8007</h3><div class="route"><strong>LGW</strong><span>→</span><strong>SVQ</strong></div><p>Gatwick 16:55 GMT → Sevilla 19:50 CET</p><p>Directo · easyJet · 1 h 55 min</p><a class="action" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=London+Gatwick+Airport">📍 Aeropuerto Gatwick ↗</a></article>
+  </div><div class="note">🔒 Esta web es pública: no se incluyen nombres, localizadores de reserva, números de pasaporte ni documentos personales.</div>
+</section>
+<section class="view" id="view-mapas" aria-label="Mapas y transportes" hidden>
+  <div class="section-head"><div><p class="eyebrow">LET'S EXPLORE</p><h2>Mapas y desplazamientos 🗺️</h2></div></div>
+  <p class="muted">Enlaces que abren Google Maps con el recorrido listo para consultar. Los tiempos y servicios dependen del día y la hora.</p>
+  <div class="map-list">
+    <article class="map-card"><span>🚆</span><div><h3>Stansted → Epsilon Hotel</h3><p>Traslado de llegada · miércoles 2</p></div><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&origin=London+Stansted+Airport&destination=Epsilon+Hotel+27A+Romford+Road+London&travelmode=transit">Abrir ruta ↗</a></article>
+    <article class="map-card"><span>🪄</span><div><h3>Hotel → King's Cross / St Pancras</h3><p>Parada T · excursión del jueves 3</p></div><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&origin=Epsilon+Hotel+27A+Romford+Road+London&destination=King%27s+Cross+St+Pancras+Bus+Stop+T+Pancras+Road+London&travelmode=transit">Abrir ruta ↗</a></article>
+    <article class="map-card"><span>🛬</span><div><h3>Epsilon Hotel → Gatwick</h3><p>Traslado de regreso · domingo 6</p></div><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&origin=Epsilon+Hotel+27A+Romford+Road+London&destination=London+Gatwick+Airport&travelmode=transit">Abrir ruta ↗</a></article>
+    <article class="map-card"><span>📍</span><div><h3>Hotel y alrededores</h3><p>Stratford · punto de partida de la aventura</p></div><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Epsilon+Hotel+27A+Romford+Road+London">Ver mapa ↗</a></article>
+  </div>
+  <div class="section-head extra-head"><div><p class="eyebrow">PARA LOS DÍAS LIBRES</p><h2>Ideas por explorar ✨</h2></div></div><p class="muted">Estos sitios son ideas, <strong>no reservas confirmadas</strong>.</p><div class="ideas"><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Natural+History+Museum+London">🦕 Museo de Historia Natural ↗</a><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=British+Museum+London">🏛️ Museo Británico · Piedra Rosetta ↗</a><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Tower+of+London">👑 Torre de Londres · Joyas de la Corona ↗</a><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Tower+Bridge+London">🌉 Tower Bridge ↗</a></div>
+</section>
+</main>
+<footer>MADE WITH ♥ FOR OUR LONDON ADVENTURE · 02—06 DEC 2026</footer>
+</div></body></html>
